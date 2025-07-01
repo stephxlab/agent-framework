@@ -1,0 +1,105 @@
+# === System files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+$RECYCLE.BIN/
+
+# === Logs ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Environment files ===
+.env
+.env.* 
+!.env.example
+
+# === OS generated ===
+*.swp
+*.swo
+*.bak
+
+# === Dependency directories ===
+node_modules/
+bower_components/
+jspm_packages/
+.pnp/
+.pnp.js
+
+# === Build output ===
+dist/
+build/
+out/
+tmp/
+temp/
+*.pyc
+__pycache__/
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# === Python ===
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+target/
+.gradle/
+build/
+
+# === C / C++ ===
+*.obj
+*.o
+*.exe
+*.out
+*.app
+
+# === Rust ===
+target/
+Cargo.lock
+
+# === Go ===
+bin/
+pkg/
+*.exe
+
+# === Other binaries ===
+*.dll
+*.deb
+*.rpm
+
+# === Mac specific ===
+*.dmg
+
+# === VS Code extensions ===
+.history/
+
+# === Custom excludes ===
+agent-framework.exe
+agent-framework
